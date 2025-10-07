@@ -1,0 +1,19 @@
+body {
+    overscroll-behavior-x: none;
+    overflow: hidden;
+}
+
+.libraryWrapper .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: max-content;
+    will-change: transform;
+}
+
+.libraryWrapper .content {
+    display: grid;
+    width: max-content;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10vw;
+    padding: 5vw;
+}
