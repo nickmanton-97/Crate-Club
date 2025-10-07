@@ -7,9 +7,11 @@ import Menu from '../../images/menu.svg';
 function Navbar() {
   return (
     <>
-      <div className={styles.NavbarContainer}>
-         <img src={Logo} alt="Crate Club logo"></img>
-        <img src={Menu} alt="Menu"></img>
+      <div className={styles.navbarContainer}>
+        <div className={styles.navbarWrapper}>
+          <img src={Logo} alt="Crate Club logo" className={styles.logo}></img>
+          <img src={Menu} alt="Menu" className={styles.menu}></img>
+        </div>
       </div>
     </>
   )

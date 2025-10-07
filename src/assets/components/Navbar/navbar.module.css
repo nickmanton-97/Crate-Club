@@ -1,4 +1,12 @@
-.NavbarContainer {
+
+.navbarWrapper {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 1000;
+}
+
+.logo {
+  /* -webkit-backdrop-filter: invert(100%);
+  backdrop-filter: invert(100%); */
 }
