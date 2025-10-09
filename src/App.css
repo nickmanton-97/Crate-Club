@@ -2,3 +2,25 @@ body {
   padding: 24px;
   background-color: #F4F3F0;
 }
+
+h1, h2, h3 {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 38px;
+  line-height: 110%;
+}
+
+p, h4, a {
+  font-family: 'Giest', sans-serif;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

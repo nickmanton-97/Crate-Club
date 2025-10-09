@@ -3,10 +3,54 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  z-index: 1000;
+  z-index: 3;
 }
 
-.logo {
-  /* -webkit-backdrop-filter: invert(100%);
-  backdrop-filter: invert(100%); */
+.aboutContainer {
+  position: relative;
+  z-index: 2;
+  padding: 24px;
+  margin-left: auto;
+  margin-top: -10vh;
+  margin-right: -2vw;
+  width: 49vw;
+  height: 100vw;
+  background-color: #fff;
+}
+
+.aboutContent {
+  padding-top: 40px;
+}
+
+.aboutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 3.25vh;
+}
+
+.closeButtonContainer {
+  padding-right: 36px;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+
+.backgroundBlur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  background-color: rgba(244, 243, 240, 0.5);
+  z-index: 1;
+}
+
+.divider hr {
+  opacity: 30%;
 }

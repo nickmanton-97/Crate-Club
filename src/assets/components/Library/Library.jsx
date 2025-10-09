@@ -82,7 +82,7 @@ const Library = () => {
           >
             {images.map((img, index) => (
               <div key={index} className={styles.media}>
-                <img src={img} alt="" />
+                <img className={styles.album} src={img} alt="" />
               </div>
             ))}
           </div>

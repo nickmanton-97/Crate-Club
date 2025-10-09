@@ -24,3 +24,14 @@ body {
   object-fit: cover;
   display: block;
 }
+
+.media {
+  transition: opacity 0.3s ease;
+}
+
+.content:hover .media {
+  opacity: 90%;
+}
+.content:hover .media:hover {
+  opacity: 1;
+}
